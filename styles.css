@@ -123,3 +123,18 @@ td {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+.column-margin {
+  position: sticky;
+  top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .column-margin {
+    display: none;
+  }
+}
+
+.column-margin {
+  margin-top: 50px;
+}
